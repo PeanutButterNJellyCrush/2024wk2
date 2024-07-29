@@ -1,0 +1,17 @@
+.living_room_image {
+    /*
+    min-width: 300px;
+    width:50%;}*/
+
+    width: clamp(300px,50%,400px);
+
+}
+.parent{
+    height: 100px;
+    border: 1px solid red;
+}
+.child{
+    height:40px;
+    background-color: blueviolet;
+    width: 50vw;
+}
