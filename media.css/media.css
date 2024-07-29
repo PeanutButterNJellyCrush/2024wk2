@@ -1,0 +1,20 @@
+h1 {
+    font-size: 30px;
+}
+@media  screen and (min-width:400px) {
+    h1 { font-size: 52px;}
+    
+}
+
+@media print {
+    h1{
+        font-weight: lighter;
+        background-color: red;
+    }
+
+}
+@media (orientation:landscape){
+    h1{
+        background-color: aquamarine;
+    }
+}
